@@ -1,0 +1,28 @@
+2025-03-15 18:36:05 [main] INFO  App - Pago exitoso - Usuario: cliente123 - Monto: $250.75
+2025-03-15 18:36:05 [main] WARN  App - Intento de pago con monto inválido - Usuario: cliente456 - Monto: -10.0
+2025-03-15 18:36:05 [main] INFO  App - Pago exitoso - Usuario: cliente789 - Monto: $100.0
+2025-03-15 18:36:45 [main] INFO  App - Pago exitoso - Usuario: cliente123 - Monto: $250.75
+2025-03-15 18:36:45 [main] WARN  App - Intento de pago con monto inválido - Usuario: cliente456 - Monto: -10.0
+2025-03-15 18:36:45 [main] INFO  App - Pago exitoso - Usuario: cliente789 - Monto: $100.0
+2025-03-15 18:36:52 [main] INFO  App - Pago exitoso - Usuario: cliente123 - Monto: $250.75
+2025-03-15 18:36:52 [main] WARN  App - Intento de pago con monto inválido - Usuario: cliente456 - Monto: -10.0
+2025-03-15 18:36:52 [main] INFO  App - Pago exitoso - Usuario: cliente789 - Monto: $100.0
+2025-03-15 18:36:59 [main] ERROR App - Error procesando pago - Usuario: cliente123 - Monto: 250.75 - Detalles: Error en el sistema de pagos
+2025-03-15 18:36:59 [main] WARN  App - Intento de pago con monto inválido - Usuario: cliente456 - Monto: -10.0
+2025-03-15 18:36:59 [main] ERROR App - Error procesando pago - Usuario: cliente789 - Monto: 100.0 - Detalles: Error en el sistema de pagos
+2025-03-17 18:46:05 [main] ERROR App - Error procesando pago - Usuario: cliente123 - Monto: 250.75 - Detalles: Error en el sistema de pagos
+2025-03-17 18:46:05 [main] WARN  App - Intento de pago con monto inválido - Usuario: cliente456 - Monto: -10.0
+2025-03-17 18:46:05 [main] INFO  App - Pago exitoso - Usuario: cliente789 - Monto: $100.0
+2025-03-17 20:26:44 [main] INFO  App - Pago exitoso - Usuario - Cliente001 - Monto $300.5
+2025-03-17 20:26:44 [main] INFO  App - Pago exitoso - Usuario - Cliente020 - Monto $500.0
+2025-03-17 20:26:44 [main] INFO  App - Pago exitoso - Usuario - Cliente223 - Monto $100.5
+2025-03-17 20:26:59 [main] INFO  App - Pago exitoso - Usuario - Cliente001 - Monto $300.5
+2025-03-17 20:26:59 [main] INFO  App - Pago exitoso - Usuario - Cliente020 - Monto $500.0
+2025-03-17 20:26:59 [main] INFO  App - Pago exitoso - Usuario - Cliente223 - Monto $100.5
+2025-03-17 20:27:08 [main] INFO  App - Pago exitoso - Usuario - Cliente001 - Monto $300.5
+2025-03-17 20:27:08 [main] INFO  App - Pago exitoso - Usuario - Cliente020 - Monto $500.0
+2025-03-17 20:27:08 [main] INFO  App - Pago exitoso - Usuario - Cliente223 - Monto $100.5
+2025-03-17 20:27:25 [main] INFO  App - Pago exitoso - Usuario - Cliente001 - Monto $300.5
+2025-03-17 20:27:25 [main] WARN  App - Intento de pago con monto inválid - Usuario: Cliente020 - Monto: -500.0
+2025-03-17 20:27:25 [main] INFO  App - Pago exitoso - Usuario - Cliente020 - Monto $-500.0
+2025-03-17 20:27:25 [main] INFO  App - Pago exitoso - Usuario - Cliente223 - Monto $100.5

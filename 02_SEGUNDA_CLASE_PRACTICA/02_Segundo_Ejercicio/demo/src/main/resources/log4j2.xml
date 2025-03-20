@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c{1} - %msg%n"/>
+        </Console>
+
+        <!-- File Appender -->
+        <File name="FileLogger" fileName="logs/app.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c{1} - %msg%n"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+    <!-- Logger específico para tu paquete -->
+    <Logger name="com.example.App" level="debug" additivity="false">
+        <AppenderRef ref="Console"/>
+        <AppenderRef ref="FileLogger"/>
+    </Logger>
+
+    <!-- Logger raíz para otros logs -->
+    <Root level="debug">
+        <AppenderRef ref="Console"/>
+        <AppenderRef ref="FileLogger"/>
+    </Root>
+</Loggers>
+
+</Configuration>
