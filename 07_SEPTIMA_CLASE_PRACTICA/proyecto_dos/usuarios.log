@@ -1,0 +1,28 @@
+abr 02, 2025 9:53:44 P. M. com.example.GestionUsuarios autenticarUsuario
+INFO: Intento de autenticación del usuario: Luis
+abr 02, 2025 9:53:44 P. M. com.example.GestionUsuarios autenticarUsuario
+INFO: Usuario autenticado con éxito: Luis
+abr 02, 2025 9:53:44 P. M. com.example.GestionUsuarios autenticarUsuario
+INFO: Intento de autenticación del usuario: Carlos
+abr 02, 2025 9:53:44 P. M. com.example.GestionUsuarios autenticarUsuario
+WARNING: Usuario no encontrado: Carlos
+abr 02, 2025 9:53:44 P. M. com.example.GestionUsuarios main
+SEVERE: Error de autenticación
+com.example.AutenticacionException: Usuario no registrado
+	at com.example.GestionUsuarios.autenticarUsuario(GestionUsuarios.java:72)
+	at com.example.GestionUsuarios.main(GestionUsuarios.java:84)
+
+abr 02, 2025 9:54:03 P. M. com.example.GestionUsuarios autenticarUsuario
+INFO: Intento de autenticación del usuario: Luis
+abr 02, 2025 9:54:04 P. M. com.example.GestionUsuarios autenticarUsuario
+INFO: Usuario autenticado con éxito: Luis
+abr 02, 2025 9:54:04 P. M. com.example.GestionUsuarios autenticarUsuario
+INFO: Intento de autenticación del usuario: Carlos
+abr 02, 2025 9:54:04 P. M. com.example.GestionUsuarios autenticarUsuario
+WARNING: Usuario no encontrado: Carlos
+abr 02, 2025 9:54:04 P. M. com.example.GestionUsuarios main
+SEVERE: Error de autenticación
+com.example.AutenticacionException: Usuario no registrado
+	at com.example.GestionUsuarios.autenticarUsuario(GestionUsuarios.java:72)
+	at com.example.GestionUsuarios.main(GestionUsuarios.java:84)
+
